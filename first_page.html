@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+</head>
+
+<body>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Raleway', sans-serif;
+            font-size: 2.5vh;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: black;
+        }
+
+        body {
+            background-color: whitesmoke;
+        }
+
+        header {
+            padding: 3.5vh;
+            font-size: 4vh;
+            text-align: center;
+            background-color: goldenrod;
+            box-sizing: border-box;
+        }
+
+        #intro {
+            font-size: 3vh;
+            color: rgb(95, 16, 16);
+            margin: 7.5vh 0 7vh 0;
+            text-align: center;
+        }
+
+        #log_sign {
+            width: 40vw;
+            height: 45vh;
+            margin: 10vh 30vw;
+            padding: 8vh 10vw;
+            background-color: wheat;
+            box-shadow: 2vh 2vh 2vh silver;
+            border: 0.5vh solid goldenrod;
+            border-radius: 3vh;
+        }
+
+        .btn {
+            color: wheat;
+            background-color: goldenrod;
+            border: 3vh solid goldenrod;
+            border-radius: 2vh;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: rgb(95, 16, 16);
+            border-color: rgb(95, 16, 16);
+            transition-duration: 0.3s;
+        }
+
+        footer {
+            padding: 5vh;
+            font-size: 2vh;
+            text-align: center;
+            background-color: goldenrod;
+        }
+    </style>
+
+    <header>Avashyakam</header>
+    <p id="intro">Welcome to the APC website - Avashyakam, it is created as an alternative to the already existing mobile app.</p>
+    <section>
+        <div id="log_sign">
+            <p>First time user ->&nbsp;
+                <a href="signup.php" target="_self"><button class="btn">Sign up</button></a>
+            </p><br><br><br>
+            <p>Existing user &nbsp;&nbsp;->&nbsp;&nbsp;&nbsp;
+                <a href="login.php" target="_self"><button class="btn">Log in</button></a>
+            </p>
+        </div>
+    </section>
+    <footer>Copyright</footer>
+</body>
+
+</html>
